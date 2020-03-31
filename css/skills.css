@@ -1,0 +1,82 @@
+.section-skills {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.section-skills:last-child {
+    margin-bottom: 0;
+}
+
+.section-skills-content {
+    margin-top: -5px;
+}
+
+.section-skills-title {
+    font-family: "Klavika";
+    font-size: 81px;
+    font-weight: 300;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: -60%;
+}
+
+.section-skills-subtitle {
+    text-align: center;
+    font-family: 'Klavika', 'sans-serif';
+    color: rgb(128, 128, 128);
+    font-weight: 300;
+    position: relative;
+    font-size: 14px;
+    margin-top: -17px;
+    top: -60%;
+}
+
+.section-skills-icon-list {
+    margin-bottom: 50px;
+}
+
+.section-skills-icon {
+    width: 40px;
+    float: left;
+    margin-right: 20px;
+    height: 40px;
+}
+
+.section-skills-icon img {
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .section-skills-subtitle {
+        font-size: 11px;
+    }
+
+    #section-skills {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-skills {
+        text-align: center;
+    }
+
+    .section-skills-icon-list {
+        margin: 0 auto;
+        width: 240px;
+    }
+
+    .section-skills-icon-list-big {
+        width: 300px;
+    }
+
+    .section-skills-content-title {
+        margin-top: 50px;
+    }
+
+    .section-skills-diamond-last {
+        margin-top: 100px;
+    }
+}
