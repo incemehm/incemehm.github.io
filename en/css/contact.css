@@ -1,0 +1,110 @@
+#section-contact h2 {
+    color: white;
+}
+
+#section-contact hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+.section-contact-list {
+    margin-top: 80px;
+}
+
+.section-contact-list h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.section-contact-list p {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-family: 'Klavika', 'sans-serif';
+}
+
+.section-contact-list-item {
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: all .15s ease;
+    -moz-transition: all .15s ease;
+    -o-transition: all .15s ease;
+    transition: all .15s ease;
+    z-index: 0;
+}
+
+.section-contact-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.section-contact-list-item-img-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 63px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    transition: all 200ms;
+    background-color: transparent;
+}
+
+.section-contact-list-item-img-container i {
+    position: absolute;
+    top: -5px;
+    left: 19px;
+}
+
+.section-contact-list-item-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: prop .15s ease;
+    -moz-transition: prop .15s ease;
+    -o-transition: prop .15s ease;
+    transition: prop .15s ease;
+    z-index: 0;
+}
+
+.section-contact-list-item-link:hover {
+    text-decoration: none;
+}
+
+.section-contact-diamond {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    border: 3px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+.footer-text {
+    color: rgb(50, 50, 50);
+    font-family: 'Klavika', 'sans-serif';
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    #section-contact {
+        padding-bottom: 20px;
+    }
+}
